@@ -3,25 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fiche Électricien – Samboudiang THIOUB</title>
+  <title>Fiche Électricien</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
+      background-color: #f2f4f8;
       margin: 0;
       padding: 20px;
       color: #333;
     }
     .card {
       background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       padding: 20px;
-      max-width: 500px;
+      max-width: 600px;
       margin: auto;
     }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .logo {
+      height: 60px;
+    }
+    .photo {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #ccc;
+    }
     h1 {
-      font-size: 1.5em;
+      font-size: 1.8em;
       color: #004080;
       margin-bottom: 10px;
     }
@@ -35,6 +51,10 @@
 </head>
 <body>
   <div class="card">
+    <div class="header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Logo_placeholder.svg/120px-Logo_placeholder.svg.png" alt="Logo entreprise" class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Profile_avatar_placeholder_large.png/150px-Profile_avatar_placeholder_large.png" alt="Photo collaborateur" class="photo">
+    </div>
     <h1>Fiche Électricien</h1>
     <p><span class="label">ID :</span> ELC-000123</p>
     <p><span class="label">Nom :</span> Samboudiang THIOUB</p>
